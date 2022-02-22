@@ -19,3 +19,4 @@ for (i in 2:n) {
 
 sd <- sd(PENNSYLVANIA$incr_cases)
 cat("The standard deviation of the increment cases in PA is", sd)
+
