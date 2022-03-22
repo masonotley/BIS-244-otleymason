@@ -1,7 +1,7 @@
 rm(list=ls(all=TRUE))
 cat("\014")
 library(tidyverse)
-setwd("./covid-19-data/")
+setwd("./covid-19-data/") # TAA - you need to set it back after
 STATES <- read_csv("us-states.csv")
 View(STATES)
 PENNSYLVANIA <- filter(STATES, state=="Pennsylvania")
